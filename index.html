@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock-Paper-Scissor</title>
+</head>
+
+<body>
+
+    <div class="score-card">
+        <h4>Score💯</h4>
+        <h6 class="score">You - <span id="yourScore">0</span></h6>
+        <h6 class="score">Computer - <span id="computerScore">0</span></h6>
+    </div>
+
+    <div class="container">
+
+        <div class="your-display">
+            <div id="yourImage" class="screen img-1">
+                <img src="images/Scissor.jpg" alt="1">
+            </div>
+            <h3 class="you">You🙋‍♂️</h3>
+        </div>
+
+        <div class="computer-display">
+            <div id="computerImage" class="screen img-2">
+                <img src="images/Paper.jpg" alt="2">
+            </div>
+            <h3 class="Computer">Computer🤖</h3>
+        </div>
+
+    </div>
+
+    <div class="playBtn-box">
+        <button id="rockBtn" class="playBtn">Rock🪨</button>
+        <button id="paperBtn" class="playBtn">Paper📃</button>
+        <button id="scissorBtn" class="playBtn">Scissor✂️</button>
+    </div>
+
+    <button id="resetBtn" class="reset">Reset Score</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
