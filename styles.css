@@ -2,8 +2,7 @@ body {
     background: #eeeeee;
     height: 100vh;
     width: auto;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container {
@@ -125,6 +124,8 @@ img {
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
+        overflow: auto;
+        height: 105vh;
     }
 
     .container {
